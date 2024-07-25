@@ -1,0 +1,207 @@
+@media screen and (min-width: 20px) and (max-width: 850px ){
+
+    /* navigation  task 1st===========================================*/
+    body {
+        margin: 1px;
+        padding: 1px;
+        background-color: black;
+    
+    }
+    
+
+    .video-titel-vv{
+        margin-top: 50px;
+        color: #fff;
+        background-color: rgb(39, 39, 39);
+        height: auto;
+        width: 85%;
+        margin-left: 1%;
+        font-size: 1.5rem;
+        display: flex;
+        justify-items: center;
+    
+    }
+    .ssssss{
+        color: #545454;
+        height: 2px;
+        width: 80%;
+        margin-left: 5%;
+        background-color:  #545454;
+        margin-top: 10px;
+        border: 0;
+    }
+    .video-titel-download{
+        text-align: center;
+        margin-top: 10px;
+        color: #747474;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 1.5rem;
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        
+    
+    }
+    .title p{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .titel-2 p {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .titel-2 a{
+        text-decoration: none;
+        color: #0087fc;
+    
+    }
+    
+    
+    .video-img-container{
+        width: 50%;
+        margin-left: 25%;
+        height: auto;
+    }
+    
+    .video-main-img{
+        margin-top: 8px;
+        justify-items: right;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 10px;
+    
+    }
+    .download-icon-container{
+        width: 90%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .download-icon-container a {
+        text-align: center;
+        text-decoration: none;
+        color: hsl(208, 87%, 41%);
+        font-weight: bold ;
+        font-size: 14px;
+        width: 90%;
+        margin-left: 0px;
+    }
+    .download-icon-container pre {
+        text-align: center;
+        text-decoration: none;
+        color: hsl(208, 87%, 41%);
+        font-weight: bold ;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .download-icon{
+        width: 8%;
+        margin-top: -23px;
+        position: absolute;
+        margin-left: 22%;
+        
+    
+    }
+    
+    .daitel-report{
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 2%;
+        text-align: center;
+        color: red;
+
+    }
+    .daitel-report h3 {
+        font-size: 2rem;
+        color: #fff;
+    }
+    .detel-mavie{
+        margin-top: 50px;
+        color: #cccccc;
+        font-size: 16px;
+
+    }
+    .detel-mavie span {
+        color: #ff0000;
+
+    }
+    .detel-mavie .blud {
+        color: #0087fc;
+    }
+    .detel-mavie{
+        margin-top: 50px;
+
+    }
+    .screenshot-tag{
+        font-size: 1.7rem;
+        color: #ff0000;
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .screeshort{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        margin-left: 3%;
+
+    }
+    .Screen-Shots-main{
+        width: 100%;
+        
+
+    }
+
+    .download-and-watch-container{
+        width: 89%;
+        margin-left: 1%;
+        text-align: center;
+        color: #ffffff;
+
+    }
+    .download-and-watch-container h3 {
+        text-align: center;
+        color: #ff0000;
+        font-size: 1.5rem;
+    }
+    .download-and-watch-container h4 {
+        text-align: center;
+        color: #0087fc;
+        font-size: 1.2rem;
+    }
+
+    .movie-watch-trailor{
+        width: 90%;
+        text-align: center;
+        margin-left: 2%;
+        height: auto;
+    }
+    .movie-watch-trailo{
+        background-color: #0087fc;
+        width: 90%;
+        margin-left: 2%;
+        height: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
