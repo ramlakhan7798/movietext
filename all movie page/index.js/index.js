@@ -2,6 +2,7 @@ onload();
 
 function onload() {
     navbarcontainer();
+    bannerpagecontainer();
 
 }
 
@@ -18,6 +19,14 @@ function bannerpagecontainer() {
 
     items.forEach(item => {
         innerHtml += `
+        <div class="image-content">
+            <div class="img">
+                <a href="${item.pagename}"><img src="${item.banner}" alt=""></a>
+            </div>
+            <div class="content-p">
+                <a href="${item.pagename}"><p>${item.tittle}</p></a> 
+            </div>
+         </div>
         `
     })
     homepagecontainer.innerHTML = innerHtml;
