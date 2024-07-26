@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #080808;
+
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+/* navigastion start */
+
+.navigation{
+    padding: 30px 50px;
+
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #080808;
+    box-shadow: 0 0 10px rgb(252, 0, 0);
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 107;
+
+}
+.navigation .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 20px 10px;
+    z-index: 103;
+}
+.navigation .menu-icon .nav-icon{
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    width: 25px;
+    position: relative;
+    transition: background 0.2s  ease-out;
+}
+.navigation .menu-icon .nav-icon::before,
+.navigation .menu-icon .nav-icon::after{
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all ease-out 0.2s;
+
+}
+.navigation .menu-icon .nav-icon::before{
+    top: 8px;
+}
+.navigation .menu-icon .nav-icon::after{
+    top: -8px;
+}
+.navigation .menu-btn:checked ~ .menu-icon .nav-icon{
+    background-color: transparent;
+}
+.navigation .menu-btn:checked ~ .menu-icon .nav-icon::before{
+    transform: rotate(-135deg);
+    top: 0px;
+}
+.navigation .menu-btn:checked ~ .menu-icon .nav-icon::after{
+    transform: rotate(135deg);
+    top: 0px;
+}
+
+.menu-btn {
+    display: none;
+}
+/* ------menu----------- */
+ 
+.menu {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #111111f1;
+    z-index: 102;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: fade 0.3s;
+}
+.menu li a {
+    color: #fff;
+    margin: 0px 40px;
+    font-size: 2rem;
+    font-family: monoton;
+}
+.menu li a:hover{
+    font-size: 2.3rem;
+    color: #e70634;
+    transition: all ease 0.3s;
+}
+
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.menuand{
+    display: none;
+}
+
+
+/* logo */
+
+.logo{
+    color: #e70634;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0px auto 0px 40px;
+    display: flex;
+    align-items: center;
+    font-family: monoton;
+    letter-spacing: 1px;
+}
+.logo span {
+    font-size: 1rem;
+    margin-left: 5px;
+    font-weight: 700; 
+    letter-spacing: 2px;
+}
+ 
+.navigation .menu-btn:checked ~ .menu {
+    display: flex;
+}
+
+/* Search ===================================== */
+
+.search-box{
+    background-color: #d1d1d111;
+    padding: 3px 20px;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+}
+.search-box input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.search-icon{
+    width: 20px;
+}
+.search-box input::placeholder{
+    color: hsl(0, 1%, 35%);
+}
+.search-box button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* navigastion end */
+
+
+
+
+
+
+
+
+.video-container-full-screen{
+    width: 100vw;
+    justify-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+.video-titel-vv{
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+    height: auto;
+    width: 80%;
+    margin-left: 5%;
+    font-size: 2rem;
+    display: flex;
+    justify-items: center;
+
+}
+.ssssss{
+    color: #545454;
+    height: 2px;
+    width: 80%;
+    margin-left: 5%;
+    background-color:  #545454;
+    margin-top: 10px;
+    border: 0;
+}
+.video-titel-download{
+    text-align: center;
+    margin-top: 10px;
+    color: #747474;
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.title p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titel-2 p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.titel-2 a{
+    text-decoration: none;
+    color: #0087fc;
+
+}
+
+
+.video-img-container{
+    width: 60%;
+    margin-left: 20%;
+    height: auto;
+}
+
+.video-main-img{
+    margin-top: 8px;
+    justify-items: right;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.download-icon-container{
+    width: 35%;
+    margin-left: 32.5%;
+    display: flex;
+    flex-direction: column;
+}
+.download-icon-container a {
+    text-align: center;
+    text-decoration: none;
+    color: hsl(208, 87%, 41%);
+    font-weight: bold ;
+    font-size: 1.5rem;
+    width: 90%;
+    margin-left: 0px;
+}
+.download-icon-container pre {
+    text-align: center;
+    text-decoration: none;
+    color: hsl(208, 87%, 41%);
+    font-weight: bold ;
+    font-size: 1.5rem;
+    margin-left: 0px;
+}
+.download-icon{
+    width: 3%;
+    margin-top: -40px;
+    position: absolute;
+    margin-left: 11%;
+    
+
+}
+.hrtagbold{
+    margin-top: 50px;
+    color: #545454;
+    height: 3px;
+    width: 80%;
+    margin-left: 5%;
+    background-color:  #545454;
+    margin-top: 10px;
+    border: 0;
+
+}
+.daitel-report{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    color: red;
+
+}
+.daitel-report h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+.detel-mavie{
+    margin-top: 50px;
+    color: #cccccc;
+    font-size: 16px;
+
+}
+.detel-mavie span {
+    color: #ff0000;
+
+}
+.detel-mavie .blud {
+    color: #0087fc;
+}
+.detel-mavie{
+    margin-top: 50px;
+
+}
+.screenshot-tag{
+    font-size: 1.7rem;
+    color: #ff0000;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+}
+.screeshort{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+
+}
+.Screen-Shots-main{
+    width: 50%;
+
+}
+
+.download-and-watch-container{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    color: #ffffff;
+
+}
+.download-and-watch-container h3 {
+    text-align: center;
+    color: #ff0000;
+    font-size: 2rem;
+}
+.download-and-watch-container h4 {
+    text-align: center;
+    color: #0087fc;
+    font-size: 1.5rem;
+}
+
+.movie-watch-trailor{
+    width: 90%;
+    text-align: center;
+    height: auto;
+    margin-left: 5%;
+}
+.movie-watch-trailo{
+    background-color: #0087fc;
+    width: 90%;
+    text-align: center;
+    height: 500px;
+    margin-left: 5%;
+
+}
+.download-and-watch {
+    width: 90%;
+    height: 500px;
+}
