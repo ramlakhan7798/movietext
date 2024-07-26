@@ -16,7 +16,7 @@ const items = [
         watchtrailor: '',
 
 
-    },
+    }
     
 
 ]
