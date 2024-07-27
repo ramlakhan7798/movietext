@@ -30,7 +30,7 @@ function bannerpage() {
     </div>
     <div class="video-img-container"><img src="${item.banner}" class="video-main-img"></div>
     <div class="download-icon-container">
-        <a href="${item.howtodownload}"><pre>{HOW TO DOWNLOAD MOVIE         }</pre><img class="download-icon" src="icon/DOWNLOAD.png" alt=""></a>
+        <a href="${item.howtodownload}"><pre>{HOW TO DOWNLOAD MOVIE         }</pre><img class="download-icon" src="./all movie page/icon/DOWNLOAD.png" alt=""></a>
 
     </div>
     <hr class="hrtagbold">
