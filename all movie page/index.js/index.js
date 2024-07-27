@@ -71,7 +71,7 @@ function navbarcontainer() {
         <input type="text"name="Search" placeholder="Search Movie" class="search-input" required/>
 
         
-        <button type="submit"><img class="search-icon" src="icon/search icon.png" alt=""></button>
+        <button type="submit"><img class="search-icon" src="./all movie page/icon/search icon.png" alt=""></button>
     </form>`;
 
     
