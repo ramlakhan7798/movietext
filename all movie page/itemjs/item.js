@@ -20,8 +20,8 @@ const items = [
     },
     {   
        id:'02',
-        tittle: 'Raayan (2024) HDTS Hindi (LiNE) 1080p 720p & 480p [x264/HEVC] | Full Movie',
-        smalltittle: 'Raayan (2024) Hindi Dubbed HDTS 1080p 720p & 480p x264 | [Action] Full Movie.',
+        tittle: 'ramlakhan (2024) HDTS Hindi (LiNE) 1080p 720p & 480p [x264/HEVC] | Full Movie',
+        smalltittle: 'ramlakhan (2024) Hindi Dubbed HDTS 1080p 720p & 480p x264 | [Action] Full Movie.',
         smalllow:'Raayan',
         banner: './all movie page/VIDEO BANNER/raayan/123.jpg',
         pagename: './raayan.html',
